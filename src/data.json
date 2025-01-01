@@ -4,17 +4,5 @@
         "timeSpent": "1:00",
         "icons": "python",
         "date": "January 1, 2025"
-    },
-    {
-        "day": 2,
-        "timeSpent": "1:30",
-        "icons": "python",
-        "date": "January 2, 2025"
-    },
-    {
-        "day": 3,
-        "timeSpent": "2:00",
-        "icons": "python",
-        "date": "January 3, 2025"
     }
 ]
