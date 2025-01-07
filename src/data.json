@@ -40,17 +40,5 @@
         "timeSpent": "1:30",
         "icons": "python",
         "date": "January 7, 2025"
-    },
-    {
-        "day": 8,
-        "timeSpent": "2:33",
-        "icons": "react",
-        "date": "January 8, 2025"
-    },
-    {
-        "day": 9,
-        "timeSpent": "2:00",
-        "icons": "react",
-        "date": "January 9, 2025"
     }
 ]
