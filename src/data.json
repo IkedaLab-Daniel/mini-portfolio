@@ -70,11 +70,5 @@
         "timeSpent": "1:30",
         "icons": "figma",
         "date": "January 12, 2025"
-    },
-    {
-        "day": 13,
-        "timeSpent": "1:20",
-        "icons": "python",
-        "date": "January 13, 2025"
     }
 ]
