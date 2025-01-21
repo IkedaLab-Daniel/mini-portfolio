@@ -124,11 +124,5 @@
         "timeSpent": "1:40",
         "icons": "sql",
         "date": "January 21, 2025"
-    },
-    {
-        "day": 22,
-        "timeSpent": "2:00",
-        "icons": "sql",
-        "date": "January 22, 2025"
     }
 ]
