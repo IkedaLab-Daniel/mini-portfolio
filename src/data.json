@@ -208,11 +208,5 @@
         "timeSpent": "1:15",
         "icons": "django",
         "date": "February 4, 2025"
-    },
-    {
-        "day": 36,
-        "timeSpent": "2:30",
-        "icons": "django",
-        "date": "February 5, 2025"
     }
 ]
