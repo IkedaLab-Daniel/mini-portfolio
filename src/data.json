@@ -256,11 +256,5 @@
         "timeSpent": "2:20",
         "icons": ["html", "css3"],
         "date": "February 12, 2025"
-    },
-    {
-        "day": 44,
-        "timeSpent": "2:00",
-        "icons": ["html", "css3"],
-        "date": "February 13, 2025"
     }
 ]
