@@ -190,5 +190,89 @@
         "timeSpent": "1:30",
         "icons": "django",
         "date": "February 1, 2025"
+    },
+    {
+        "day": 33,
+        "timeSpent": "1:30",
+        "icons": "sass",
+        "date": "February 2, 2025"
+    },
+    {
+        "day": 34,
+        "timeSpent": "1:20",
+        "icons": "sass",
+        "date": "February 3, 2025"
+    },
+    {
+        "day": 35,
+        "timeSpent": "1:15",
+        "icons": "django",
+        "date": "February 4, 2025"
+    },
+    {
+        "day": 36,
+        "timeSpent": "2:30",
+        "icons": "django",
+        "date": "February 5, 2025"
+    },
+    {
+        "day": 37,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 6, 2025"
+    },
+    {
+        "day": 38,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 7, 2025"
+    },
+    {
+        "day": 39,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "February 8, 2025"
+    },
+    {
+        "day": 40,
+        "timeSpent": "2:00",
+        "icons": "react",
+        "date": "February 9, 2025"
+    },
+    {
+        "day": 41,
+        "timeSpent": "2:20",
+        "icons": "django",
+        "date": "February 10, 2025"
+    },
+    {
+        "day": 42,
+        "timeSpent": "1:40",
+        "icons": ["html", "css3", "js"],
+        "date": "February 11, 2025"
+    },
+    {
+        "day": 43,
+        "timeSpent": "2:20",
+        "icons": ["html", "css3"],
+        "date": "February 12, 2025"
+    },
+    {
+        "day": 44,
+        "timeSpent": "2:00",
+        "icons": ["html", "css3"],
+        "date": "February 13, 2025"
+    },
+    {
+        "day": 45,
+        "timeSpent": "1:40",
+        "icons": ["html", "css3"],
+        "date": "February 14, 2025"
+    },
+    {
+        "day": 46,
+        "timeSpent": "1:20",
+        "icons": ["html", "css3"],
+        "date": "February 15, 2025"
     }
 ]
