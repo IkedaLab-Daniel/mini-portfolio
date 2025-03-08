@@ -400,17 +400,5 @@
         "timeSpent": "1:40",
         "icons": "figma",
         "date": "March 8, 2025"
-    },
-    {
-        "day": 68,
-        "timeSpent": "2:00",
-        "icons": "django",
-        "date": "March 9, 2025"
-    },
-    {
-        "day": 69,
-        "timeSpent": "2:10",
-        "icons": ["django", "figma"],
-        "date": "March 10, 2025"
     }
 ]
