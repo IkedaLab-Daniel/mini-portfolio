@@ -442,59 +442,5 @@
         "timeSpent": "1:20",
         "icons": "django",
         "date": "March 15, 2025"
-    },
-    {
-        "day": 75,
-        "timeSpent": "2:00",
-        "icons": ["django", "figma"],
-        "date": "March 16, 2025"
-    },
-    {
-        "day": 76,
-        "timeSpent": "2:00",
-        "icons": ["django", "figma"],
-        "date": "March 17, 2025"
-    },
-    {
-        "day": 77,
-        "timeSpent": "2:15",
-        "icons": ["django", "figma"],
-        "date": "March 18, 2025"
-    },
-    {
-        "day": 78,
-        "timeSpent": "1:30",
-        "icons": ["django", "figma"],
-        "date": "March 19, 2025"
-    },
-    {
-        "day": 79,
-        "timeSpent": "1:20",
-        "icons": "django",
-        "date": "March 20, 2025"
-    },
-    {
-        "day": 80,
-        "timeSpent": "1:35",
-        "icons": "django",
-        "date": "March 21, 2025"
-    },
-    {
-        "day": 81,
-        "timeSpent": "2:00",
-        "icons": "django",
-        "date": "March 22, 2025"
-    },
-    {
-        "day": 82,
-        "timeSpent": "1:35",
-        "icons": "django",
-        "date": "March 23, 2025"
-    },
-    {
-        "day": 83,
-        "timeSpent": "3:00",
-        "icons": ["django", "figma"],
-        "date": "March 24, 2025"
     }
 ]
