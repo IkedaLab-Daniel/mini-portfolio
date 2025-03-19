@@ -466,11 +466,5 @@
         "timeSpent": "1:30",
         "icons": ["django", "figma"],
         "date": "March 19, 2025"
-    },
-    {
-        "day": 79,
-        "timeSpent": "1:20",
-        "icons": "django",
-        "date": "March 20, 2025"
     }
 ]
