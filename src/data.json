@@ -502,53 +502,5 @@
         "timeSpent": "2:00",
         "icons": "django",
         "date": "March 25, 2025"
-    },
-    {
-        "day": 85,
-        "timeSpent": "2:00",
-        "icons": ["django", "figma"],
-        "date": "March 26, 2025"
-    },
-    {
-        "day": 86,
-        "timeSpent": "2:00",
-        "icons": "django",
-        "date": "March 27, 2025"
-    },
-    {
-        "day": 87,
-        "timeSpent": "2:00",
-        "icons": "django",
-        "date": "March 28, 2025"
-    },
-    {
-        "day": 88,
-        "timeSpent": "3:00",
-        "icons": ["django", "figma"],
-        "date": "March 29, 2025"
-    },
-    {
-        "day": 89,
-        "timeSpent": "2:00",
-        "icons": "django",
-        "date": "March 30, 2025"
-    },
-    {
-        "day": 90,
-        "timeSpent": "2:45",
-        "icons": "django",
-        "date": "March 31, 2025"
-    },
-    {
-        "day": 91,
-        "timeSpent": "1:15",
-        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
-        "date": "April 1, 2025"
-    },
-    {
-        "day": 92,
-        "timeSpent": "2:00",
-        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
-        "date": "April 2, 2025"
     }
 ]
