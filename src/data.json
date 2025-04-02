@@ -550,11 +550,5 @@
         "timeSpent": "2:00",
         "icons": ["django", "mysql", "react", "css3", "git", "figma"],
         "date": "April 2, 2025"
-    },
-    {
-        "day": 93,
-        "timeSpent": "1:30",
-        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
-        "date": "April 3, 2025"
     }
 ]
