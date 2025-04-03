@@ -1,0 +1,560 @@
+[
+    {
+        "day": 1,
+        "timeSpent": "1:00",
+        "icons": "python",
+        "date": "January 1, 2025"
+    },
+    {
+        "day": 2,
+        "timeSpent": "1:30",
+        "icons": "python",
+        "date": "January 2, 2025"
+    },
+    {
+        "day": 3,
+        "timeSpent": "2:00",
+        "icons": "python",
+        "date": "January 3, 2025"
+    },
+    {
+        "day": 4,
+        "timeSpent": "2:00",
+        "icons": "python",
+        "date": "January 4, 2025"
+    },
+    {
+        "day": 5,
+        "timeSpent": "1:30",
+        "icons": "python",
+        "date": "January 5, 2025"
+    },
+    {
+        "day": 6,
+        "timeSpent": "1:40",
+        "icons": "figma",
+        "date": "January 6, 2025"
+    },
+    {
+        "day": 7,
+        "timeSpent": "1:30",
+        "icons": "python",
+        "date": "January 7, 2025"
+    },
+    {
+        "day": 8,
+        "timeSpent": "2:33",
+        "icons": "react",
+        "date": "January 8, 2025"
+    },
+    {
+        "day": 9,
+        "timeSpent": "2:00",
+        "icons": "react",
+        "date": "January 9, 2025"
+    },
+    {
+        "day": 10,
+        "timeSpent": "3:00",
+        "icons": "python",
+        "date": "January 10, 2025"
+    },
+    {
+        "day": 11,
+        "timeSpent": "1:30",
+        "icons": "figma",
+        "date": "January 11, 2025"
+    },
+    {
+        "day": 12,
+        "timeSpent": "1:30",
+        "icons": "figma",
+        "date": "January 12, 2025"
+    },
+    {
+        "day": 13,
+        "timeSpent": "1:20",
+        "icons": "python",
+        "date": "January 13, 2025"
+    },
+    {
+        "day": 14,
+        "timeSpent": "1:30",
+        "icons": "figma",
+        "date": "January 14, 2025"
+    },
+    {
+        "day": 15,
+        "timeSpent": "1:26",
+        "icons": "figma",
+        "date": "January 15, 2025"
+    },
+    {
+        "day": 16,
+        "timeSpent": "1:34",
+        "icons": "python",
+        "date": "January 16, 2025"
+    },
+    {
+        "day": 17,
+        "timeSpent": "2:00",
+        "icons": "python",
+        "date": "January 17, 2025"
+    },
+    {
+        "day": 18,
+        "timeSpent": "2:00",
+        "icons": ["python", "figma"],
+        "date": "January 18, 2025"
+    },
+    {
+        "day": 19,
+        "timeSpent": "1:40",
+        "icons": "figma",
+        "date": "January 19, 2025"
+    },
+    {
+        "day": 20,
+        "timeSpent": "1:40",
+        "icons": "figma",
+        "date": "January 20, 2025"
+    },
+    {
+        "day": 21,
+        "timeSpent": "1:40",
+        "icons": "sql",
+        "date": "January 21, 2025"
+    },
+    {
+        "day": 22,
+        "timeSpent": "2:00",
+        "icons": "sql",
+        "date": "January 22, 2025"
+    },
+    {
+        "day": 23,
+        "timeSpent": "2:00",
+        "icons": "sql",
+        "date": "January 23, 2025"
+    },
+    {
+        "day": 24,
+        "timeSpent": "2:20",
+        "icons": "sql",
+        "date": "January 24, 2025"
+    },
+    {
+        "day": 25,
+        "timeSpent": "1:30",
+        "icons": "sql",
+        "date": "January 25, 2025"
+    },
+    {
+        "day": 26,
+        "timeSpent": "5:10",
+        "icons": "sql",
+        "date": "January 26, 2025"
+    },
+    {
+        "day": 27,
+        "timeSpent": "1:10",
+        "icons": "django",
+        "date": "January 27, 2025"
+    },
+    {
+        "day": 28,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "January 28, 2025"
+    },
+    {
+        "day": 29,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "January 29, 2025"
+    },
+    {
+        "day": 30,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "January 30, 2025"
+    },
+    {
+        "day": 31,
+        "timeSpent": "1:00",
+        "icons": "django",
+        "date": "January 31, 2025"
+    },
+    {
+        "day": 32,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "February 1, 2025"
+    },
+    {
+        "day": 33,
+        "timeSpent": "1:30",
+        "icons": "sass",
+        "date": "February 2, 2025"
+    },
+    {
+        "day": 34,
+        "timeSpent": "1:20",
+        "icons": "sass",
+        "date": "February 3, 2025"
+    },
+    {
+        "day": 35,
+        "timeSpent": "1:15",
+        "icons": "django",
+        "date": "February 4, 2025"
+    },
+    {
+        "day": 36,
+        "timeSpent": "2:30",
+        "icons": "django",
+        "date": "February 5, 2025"
+    },
+    {
+        "day": 37,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 6, 2025"
+    },
+    {
+        "day": 38,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 7, 2025"
+    },
+    {
+        "day": 39,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "February 8, 2025"
+    },
+    {
+        "day": 40,
+        "timeSpent": "2:00",
+        "icons": "react",
+        "date": "February 9, 2025"
+    },
+    {
+        "day": 41,
+        "timeSpent": "2:20",
+        "icons": "django",
+        "date": "February 10, 2025"
+    },
+    {
+        "day": 42,
+        "timeSpent": "1:40",
+        "icons": ["html", "css3", "js"],
+        "date": "February 11, 2025"
+    },
+    {
+        "day": 43,
+        "timeSpent": "2:20",
+        "icons": ["html", "css3"],
+        "date": "February 12, 2025"
+    },
+    {
+        "day": 44,
+        "timeSpent": "2:00",
+        "icons": ["html", "css3"],
+        "date": "February 13, 2025"
+    },
+    {
+        "day": 45,
+        "timeSpent": "1:40",
+        "icons": ["html", "css3"],
+        "date": "February 14, 2025"
+    },
+    {
+        "day": 46,
+        "timeSpent": "1:20",
+        "icons": ["html", "css3"],
+        "date": "February 15, 2025"
+    },
+    {
+        "day": 47,
+        "timeSpent": "2:30",
+        "icons": ["html", "css3"],
+        "date": "February 16, 2025"
+    },
+    {
+        "day": 48,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "February 17, 2025"
+    },
+    {
+        "day": 49,
+        "timeSpent": "1:10",
+        "icons": "django",
+        "date": "February 18, 2025"
+    },
+    {
+        "day": 50,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "February 19, 2025"
+    },
+    {
+        "day": 51,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 20, 2025"
+    },
+    {
+        "day": 52,
+        "timeSpent": "1:45",
+        "icons": "django",
+        "date": "February 21, 2025"
+    },
+    {
+        "day": 53,
+        "timeSpent": "2:05",
+        "icons": "django",
+        "date": "February 22, 2025"
+    },
+    {
+        "day": 54,
+        "timeSpent": "1:35",
+        "icons": "django",
+        "date": "February 23, 2025"
+    },
+    {
+        "day": 55,
+        "timeSpent": "1:10",
+        "icons": "django",
+        "date": "February 24, 2025"
+    },
+    {
+        "day": 56,
+        "timeSpent": "1:45",
+        "icons": "django",
+        "date": "February 25, 2025"
+    },
+    {
+        "day": 57,
+        "timeSpent": "2:30",
+        "icons": "django",
+        "date": "February 26, 2025"
+    },
+    {
+        "day": 58,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "February 27, 2025"
+    },
+    {
+        "day": 59,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "February 28, 2025"
+    },
+    {
+        "day": 60,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "March 1, 2025"
+    },
+    {
+        "day": 61,
+        "timeSpent": "1:25",
+        "icons": "django",
+        "date": "March 2, 2025"
+    },
+    {
+        "day": 62,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "March 3, 2025"
+    },
+    {
+        "day": 63,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 4, 2025"
+    },
+    {
+        "day": 64,
+        "timeSpent": "1:30",
+        "icons": "django",
+        "date": "March 5, 2025"
+    },
+    {
+        "day": 65,
+        "timeSpent": "1:25",
+        "icons": "figma",
+        "date": "March 6, 2025"
+    },
+    {
+        "day": 66,
+        "timeSpent": "2:00",
+        "icons": "figma",
+        "date": "March 7, 2025"
+    },
+    {
+        "day": 67,
+        "timeSpent": "1:40",
+        "icons": "figma",
+        "date": "March 8, 2025"
+    },
+    {
+        "day": 68,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 9, 2025"
+    },
+    {
+        "day": 69,
+        "timeSpent": "2:10",
+        "icons": ["django", "figma"],
+        "date": "March 10, 2025"
+    },
+    {
+        "day": 70,
+        "timeSpent": "2:00",
+        "icons": ["django", "figma"],
+        "date": "March 11, 2025"
+    },
+    {
+        "day": 71,
+        "timeSpent": "3:40",
+        "icons": ["django", "figma"],
+        "date": "March 12, 2025"
+    },
+    {
+        "day": 72,
+        "timeSpent": "5:30",
+        "icons": ["django", "figma"],
+        "date": "March 13, 2025"
+    },
+    {
+        "day": 73,
+        "timeSpent": "2:00",
+        "icons": ["django", "figma"],
+        "date": "March 14, 2025"
+    },
+    {
+        "day": 74,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "March 15, 2025"
+    },
+    {
+        "day": 75,
+        "timeSpent": "2:00",
+        "icons": ["django", "figma"],
+        "date": "March 16, 2025"
+    },
+    {
+        "day": 76,
+        "timeSpent": "2:00",
+        "icons": ["django", "figma"],
+        "date": "March 17, 2025"
+    },
+    {
+        "day": 77,
+        "timeSpent": "2:15",
+        "icons": ["django", "figma"],
+        "date": "March 18, 2025"
+    },
+    {
+        "day": 78,
+        "timeSpent": "1:30",
+        "icons": ["django", "figma"],
+        "date": "March 19, 2025"
+    },
+    {
+        "day": 79,
+        "timeSpent": "1:20",
+        "icons": "django",
+        "date": "March 20, 2025"
+    },
+    {
+        "day": 80,
+        "timeSpent": "1:35",
+        "icons": "django",
+        "date": "March 21, 2025"
+    },
+    {
+        "day": 81,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 22, 2025"
+    },
+    {
+        "day": 82,
+        "timeSpent": "1:35",
+        "icons": "django",
+        "date": "March 23, 2025"
+    },
+    {
+        "day": 83,
+        "timeSpent": "3:00",
+        "icons": ["django", "figma"],
+        "date": "March 24, 2025"
+    },
+    {
+        "day": 84,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 25, 2025"
+    },
+    {
+        "day": 85,
+        "timeSpent": "2:00",
+        "icons": ["django", "figma"],
+        "date": "March 26, 2025"
+    },
+    {
+        "day": 86,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 27, 2025"
+    },
+    {
+        "day": 87,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 28, 2025"
+    },
+    {
+        "day": 88,
+        "timeSpent": "3:00",
+        "icons": ["django", "figma"],
+        "date": "March 29, 2025"
+    },
+    {
+        "day": 89,
+        "timeSpent": "2:00",
+        "icons": "django",
+        "date": "March 30, 2025"
+    },
+    {
+        "day": 90,
+        "timeSpent": "2:45",
+        "icons": "django",
+        "date": "March 31, 2025"
+    },
+    {
+        "day": 91,
+        "timeSpent": "1:15",
+        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
+        "date": "April 1, 2025"
+    },
+    {
+        "day": 92,
+        "timeSpent": "2:00",
+        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
+        "date": "April 2, 2025"
+    },
+    {
+        "day": 93,
+        "timeSpent": "1:30",
+        "icons": ["django", "mysql", "react", "css3", "git", "figma"],
+        "date": "April 3, 2025"
+    }
+]
