@@ -7,7 +7,7 @@ function About(){
         <div id="about">
             <div className="about-container">
                 <div className="left">
-                    <img src={samplePNG} alt="" />
+                    <img src={deviceice} alt="" />
                     <div className='sidenote'>
                         <p className="username">@dev.iceice</p>
                         <p className="caption">Studying Web Development 1 Hour/+ a Day</p>
@@ -44,7 +44,7 @@ function About(){
                         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
                     </div>
                     <div className="stats">
-                        <span>Total Time Spent: <strong>{data['total-time']}</strong> </span>
+                        <span>Time Spent: <strong>{data['total-time']}</strong> </span>
                         <span>Steak: <strong>{data['total-days']}</strong></span>
                     </div>
                 </div>

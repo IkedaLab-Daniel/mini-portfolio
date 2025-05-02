@@ -1,0 +1,26 @@
+[
+    {
+        "day": 1,
+        "timeSpent": "2 hours",
+        "icons": "react",
+        "date": "January 1, 2025"
+    },
+    {
+        "day": 2,
+        "timeSpent": "2 hours",
+        "icons": ["react", "python", "figma"],
+        "date": "January 2, 2025"
+    },
+    {
+        "day": 3,
+        "timeSpent": "2 hours",
+        "icons": "react",
+        "date": "January 3, 2025"
+    },
+    {
+        "day": 4,
+        "timeSpent": "2 hours",
+        "icons": "⚛️",
+        "date": "January 4, 2025"
+    }
+]
