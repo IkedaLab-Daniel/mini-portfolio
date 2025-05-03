@@ -2,12 +2,27 @@ import data from '../data.json'
 import reactSVG from '../assets/react.svg'
 import pythonSVG from '../assets/python.svg'
 import figmaSVG from '../assets/figma.svg'
+import sqlSVG from '../assets/sqlSVG.svg'
+import djangoSVG from '../assets/django.svg'
+import sassSVG from '../assets/sass.svg'
+import htmlSVG from '../assets/html.svg'
+import css3SVG from '../assets/css3.svg'
+import jsSVG from '../assets/js.svg'
+
+
+
 function StudyCards() {
    
     const iconMap = {
         react: reactSVG,
         python: pythonSVG,
         figma: figmaSVG,
+        sql: sqlSVG,
+        django: djangoSVG,
+        sass: sassSVG,
+        html: htmlSVG,
+        css3: css3SVG,
+        js: jsSVG
     }
 
     return (
