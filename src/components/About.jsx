@@ -1,8 +1,24 @@
 import deviceice from '../assets/deviceice.jpeg'
 import samplePNG from '../assets/sample.png'
-import data from '../stats.json'
+import data from '../data.json'
+import timeSVG from '../assets/time2.svg'
+import fireGIF from '../assets/fire.gif'
 
 function About(){
+
+    // Calculate total time spent
+    const totalTimeSpent = data.reduce((total, entry) => {
+        const [hours, minutes] = entry.timeSpent.split(':').map(Number);
+        return total + hours * 60 + minutes; // Convert time to minutes
+    }, 0);
+
+    // Convert total time spent back to hours and minutes
+    const totalHours = Math.floor(totalTimeSpent / 60);
+    const totalMinutes = totalTimeSpent % 60;
+
+    // Get total days
+    const totalDays = data.length;
+
     return(
         <div id="about">
             <div className="about-container">
@@ -44,8 +60,22 @@ function About(){
                         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
                     </div>
                     <div className="stats">
-                        <span>Time Spent: <strong>{data['total-time']}</strong> </span>
-                        <span>Steak: <strong>{data['total-days']}</strong></span>
+                        <div className="div1">
+                            <span>Total Time: </span>
+                            <div className="icon-text">
+                                <img src={timeSVG} alt="" />
+                                <span style={{fontSize: "0.9rem"}} className='big'>{totalHours} : {totalMinutes}</span>
+                            </div>
+                            
+                        </div>
+                        <div className="div2">
+                            <span>Streak: </span>
+                            <div className="icon-text">
+                                <img src={fireGIF} alt="" /> 
+                                <span className='big'>{totalDays}</span>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

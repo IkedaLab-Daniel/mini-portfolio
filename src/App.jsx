@@ -5,7 +5,7 @@ import './index.css'
 function App() {
   return (
     <main>
-      <h3 style={{textAlign:"center", background:"red"}}>! - DEVELOPMENT IN PROGRESS - !</h3>
+      {/* <h3 style={{textAlign:"center", background:"red"}}>! - DEVELOPMENT IN PROGRESS - !</h3> */}
       
       <About />
       <StudyCards />

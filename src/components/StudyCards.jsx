@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import data from '../data.json'
 import reactSVG from '../assets/react.svg'
 import pythonSVG from '../assets/python.svg'
@@ -8,11 +10,22 @@ import sassSVG from '../assets/sass.svg'
 import htmlSVG from '../assets/html.svg'
 import css3SVG from '../assets/css3.svg'
 import jsSVG from '../assets/js.svg'
-
-
+import mysqlSVG from '../assets/mysql.png'
+import gitSVG from '../assets/git.svg'
+import phpSVG from '../assets/php.svg'
+import viteSVG from '../assets/vite.svg'
 
 function StudyCards() {
+
+    const [toggleStudyCard, setToggleStudyCard] = useState(true);
    
+    const handleToggleStudyCard = (styling) => {
+        if (styling === 'card'){
+            setToggleStudyCard(true)
+        } else{
+            setToggleStudyCard(false)
+        }
+    }
     const iconMap = {
         react: reactSVG,
         python: pythonSVG,
@@ -22,36 +35,41 @@ function StudyCards() {
         sass: sassSVG,
         html: htmlSVG,
         css3: css3SVG,
-        js: jsSVG
+        js: jsSVG,
+        mysql : mysqlSVG,
+        git: gitSVG,
+        php: phpSVG,
+        vite: viteSVG,
     }
 
     return (
-        <div id="studycards">
-            {data.map((item, index) => (
-                <div key={index} className="card">
-                    <h3>Day {item.day}</h3>
-                    <p className='date'>{item.date}</p>
-                    <p className='time'>{item.timeSpent}</p>
-                    <div className="icons">
-                        {Array.isArray(item.icons) ? (
-                            item.icons.map((icon, i) =>
-                                iconMap[icon] ? (
-                                    <img key={i} src={iconMap[icon]} alt={icon} />
-                                ) : (
-                                    <p key={i}>Icon not found</p>
+            <div id="studycards">
+                {data.map((item, index) => (
+                    <div key={index} className={toggleStudyCard ? 'card' : 'stick'}>
+                        <h3>Day {item.day}</h3>
+                        <p className='date'>{item.date}</p>
+                        <p className='time'>{item.timeSpent}</p>
+                        <p className='time-caption'>HH : MM</p>
+                        <div className="icons">
+                            {Array.isArray(item.icons) ? (
+                                item.icons.map((icon, i) =>
+                                    iconMap[icon] ? (
+                                        <img className='icon-img' key={i} src={iconMap[icon]} alt={icon} />
+                                    ) : (
+                                        <p key={i}>Icon not found</p>
+                                    )
                                 )
-                            )
-                        ) : (
-                            iconMap[item.icons] ? (
-                                <img src={iconMap[item.icons]} alt={item.icons} />
                             ) : (
-                                <p>Icon not found</p>
-                            )
-                        )}
+                                iconMap[item.icons] ? (
+                                    <img className='icon-img' src={iconMap[item.icons]} alt={item.icons} />
+                                ) : (
+                                    <p>Icon not found</p>
+                                )
+                            )}
+                        </div>
                     </div>
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>     
     )
 }
 
