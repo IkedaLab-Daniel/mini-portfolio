@@ -259,6 +259,30 @@ main{
   transform: scale(105%) translateY(-4px);
 }
 
+.see-all-container{
+  width: 80%;
+  background-color: rgba(255, 0, 0, 0);
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 2px solid rgb(207, 207, 207);
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.see-all-container img{
+  width: 30px;
+  position: relative;
+  left: -5px;
+}
+
+
+.see-all-container span{
+  font-size: 1.5rem;
+}
+
+
 
 /* mobile devices */
 @media (max-width: 768px) {

@@ -16,11 +16,13 @@ import mysqlSVG from '../assets/mysql.png'
 import gitSVG from '../assets/git.svg'
 import phpSVG from '../assets/php.svg'
 import viteSVG from '../assets/vite.svg'
+import downSVG from '../assets/down2.svg'
 
 function StudyCards() {
 
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
-   
+    const [showAll, setShowAll] = useState(false);
+
     const handleToggleStudyCard = (styling) => {
         if (styling === 'card'){
             setToggleStudyCard(true)
@@ -44,6 +46,8 @@ function StudyCards() {
         vite: viteSVG,
     }
 
+    const displayedData = showAll ? data : data.slice(0, 10);
+
     return (
         <>
             <div className="view-container">
@@ -56,7 +60,7 @@ function StudyCards() {
             </div>
             
             <div id="studycards">
-                {data.map((item, index) => (
+                {displayedData.map((item, index) => (
                     <div key={index} className={toggleStudyCard ? 'card' : 'stick'}>
                         <h3>Day {item.day}</h3>
                         <p className='date'>{item.date}</p>
@@ -82,6 +86,15 @@ function StudyCards() {
                     </div>
                 ))}
             </div>     
+
+            {!showAll && (
+                <div className="see-all-container cool-btn">
+                    <img src={downSVG} alt="" />
+                    <span className="see-all-btn" onClick={() => setShowAll(true)}>
+                        See All
+                    </span>
+                </div>
+            )}
         </>
             
     )
