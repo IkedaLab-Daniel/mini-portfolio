@@ -190,6 +190,7 @@ main{
   justify-content: end;
   gap: 10px;
   height: 30px;
+  animation: fade-up-delay forwards ease 1.8s;
 }
 
 .view-container div{
