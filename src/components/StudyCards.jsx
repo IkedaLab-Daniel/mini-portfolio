@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import cardSVG from '../assets/card2.svg'
+import stickSVG from '../assets/stick.svg'
 import data from '../data.json'
 import reactSVG from '../assets/react.svg'
 import pythonSVG from '../assets/python.svg'
@@ -43,6 +45,16 @@ function StudyCards() {
     }
 
     return (
+        <>
+            <div className="view-container">
+                <div className='cool-btn' onClick={() => handleToggleStudyCard('card')}>
+                    <img src={cardSVG} alt="" />
+                </div>
+                <div className='cool-btn' onClick={() => handleToggleStudyCard('stick')}>
+                    <img src={stickSVG} alt="" />
+                </div>
+            </div>
+            
             <div id="studycards">
                 {data.map((item, index) => (
                     <div key={index} className={toggleStudyCard ? 'card' : 'stick'}>
@@ -70,6 +82,8 @@ function StudyCards() {
                     </div>
                 ))}
             </div>     
+        </>
+            
     )
 }
 
