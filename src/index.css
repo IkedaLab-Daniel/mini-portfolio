@@ -183,7 +183,7 @@ main{
 }
 
 .view-container{
-  width: 90%;
+  width: 80%;
   margin: 10px auto;
   border-radius: 8px;
   display: flex;
@@ -396,6 +396,10 @@ main{
   #studycards .card  .icons img{
     width: 25px;
     height: 25px;
+  }
+
+  .view-container{
+    width: 85%;
   }
 }
 
