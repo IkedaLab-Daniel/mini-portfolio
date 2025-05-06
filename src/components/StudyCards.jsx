@@ -1,35 +1,36 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-import cardSVG from '../assets/card2.svg'
-import stickSVG from '../assets/stick.svg'
-import data from '../data.json'
-import reactSVG from '../assets/react.svg'
-import pythonSVG from '../assets/python.svg'
-import figmaSVG from '../assets/figma.svg'
-import sqlSVG from '../assets/sqlSVG.svg'
-import djangoSVG from '../assets/django.svg'
-import sassSVG from '../assets/sass.svg'
-import htmlSVG from '../assets/html.svg'
-import css3SVG from '../assets/css3.svg'
-import jsSVG from '../assets/js.svg'
-import mysqlSVG from '../assets/mysql.png'
-import gitSVG from '../assets/git.svg'
-import phpSVG from '../assets/php.svg'
-import viteSVG from '../assets/vite.svg'
-import downSVG from '../assets/down2.svg'
+import cardSVG from '../assets/card2.svg';
+import stickSVG from '../assets/stick.svg';
+import data from '../data.json';
+import reactSVG from '../assets/react.svg';
+import pythonSVG from '../assets/python.svg';
+import figmaSVG from '../assets/figma.svg';
+import sqlSVG from '../assets/sqlSVG.svg';
+import djangoSVG from '../assets/django.svg';
+import sassSVG from '../assets/sass.svg';
+import htmlSVG from '../assets/html.svg';
+import css3SVG from '../assets/css3.svg';
+import jsSVG from '../assets/js.svg';
+import mysqlSVG from '../assets/mysql.png';
+import gitSVG from '../assets/git.svg';
+import phpSVG from '../assets/php.svg';
+import viteSVG from '../assets/vite.svg';
+import downSVG from '../assets/down2.svg';
+import upSVG from '../assets/up.svg'
 
 function StudyCards() {
-
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
-    const [showAll, setShowAll] = useState(false);
+    const [showAll, setShowAll] = useState(false); // State to control whether all cards are shown
 
     const handleToggleStudyCard = (styling) => {
-        if (styling === 'card'){
-            setToggleStudyCard(true)
-        } else{
-            setToggleStudyCard(false)
+        if (styling === 'card') {
+            setToggleStudyCard(true);
+        } else {
+            setToggleStudyCard(false);
         }
-    }
+    };
+
     const iconMap = {
         react: reactSVG,
         python: pythonSVG,
@@ -40,44 +41,45 @@ function StudyCards() {
         html: htmlSVG,
         css3: css3SVG,
         js: jsSVG,
-        mysql : mysqlSVG,
+        mysql: mysqlSVG,
         git: gitSVG,
         php: phpSVG,
         vite: viteSVG,
-    }
+    };
 
+    // Determine the data to display (first 10 or all)
     const displayedData = showAll ? data : data.slice(0, 10);
 
     return (
         <>
             <div className="view-container">
-                <div className='cool-btn' onClick={() => handleToggleStudyCard('card')}>
+                <div className="cool-btn" onClick={() => handleToggleStudyCard('card')}>
                     <img src={cardSVG} alt="" />
                 </div>
-                <div className='cool-btn' onClick={() => handleToggleStudyCard('stick')}>
+                <div className="cool-btn" onClick={() => handleToggleStudyCard('stick')}>
                     <img src={stickSVG} alt="" />
                 </div>
             </div>
-            
+
             <div id="studycards">
                 {displayedData.map((item, index) => (
                     <div key={index} className={toggleStudyCard ? 'card' : 'stick'}>
                         <h3>Day {item.day}</h3>
-                        <p className='date'>{item.date}</p>
-                        <p className='time'>{item.timeSpent}</p>
-                        <p className='time-caption'>HH : MM</p>
+                        <p className="date">{item.date}</p>
+                        <p className="time">{item.timeSpent}</p>
+                        <p className="time-caption">HH : MM</p>
                         <div className="icons">
                             {Array.isArray(item.icons) ? (
                                 item.icons.map((icon, i) =>
                                     iconMap[icon] ? (
-                                        <img className='icon-img' key={i} src={iconMap[icon]} alt={icon} />
+                                        <img className="icon-img" key={i} src={iconMap[icon]} alt={icon} />
                                     ) : (
                                         <p key={i}>Icon not found</p>
                                     )
                                 )
                             ) : (
                                 iconMap[item.icons] ? (
-                                    <img className='icon-img' src={iconMap[item.icons]} alt={item.icons} />
+                                    <img className="icon-img" src={iconMap[item.icons]} alt={item.icons} />
                                 ) : (
                                     <p>Icon not found</p>
                                 )
@@ -85,19 +87,27 @@ function StudyCards() {
                         </div>
                     </div>
                 ))}
-            </div>     
+            </div>
 
-            {!showAll && (
-                <div className="see-all-container cool-btn">
-                    <img src={downSVG} alt="" />
-                    <span className="see-all-btn" onClick={() => setShowAll(true)}>
-                        See All
-                    </span>
-                </div>
-            )}
+            <div className="see-all-container cool-btn" onClick={showAll ? (() => setShowAll(false)) : (() => setShowAll(true))}>
+                {!showAll ? (
+                    <>
+                        <img src={downSVG} alt="" />
+                        <span className="see-all-btn">
+                            See All
+                        </span>
+                    </>
+                ) : (
+                    <>
+                        <img src={upSVG} alt="" />
+                        <span className="see-all-btn">
+                            Hide
+                        </span>
+                    </>
+                )}
+            </div>
         </>
-            
-    )
+    );
 }
 
-export default StudyCards
+export default StudyCards;

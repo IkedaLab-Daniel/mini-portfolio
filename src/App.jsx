@@ -1,5 +1,6 @@
 import About from './components/About'
 import StudyCards from './components/StudyCards'
+import Faqs from './components/Faqs'
 import './index.css'
 
 function App() {
