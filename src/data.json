@@ -766,5 +766,17 @@
         "timeSpent": "2:00",
         "icons": ["html", "css3", "js", "php", "mysql", "git", "figma"],
         "date": "May 8, 2025"
+    },
+    {
+        "day": 129,
+        "timeSpent": "3:00",
+        "icons": ["html", "css3", "js", "php", "mysql", "git", "figma"],
+        "date": "May 9, 2025"
+    },
+    {
+        "day": 130,
+        "timeSpent": "1:45",
+        "icons": ["html", "css3", "js", "php", "mysql", "git", "figma"],
+        "date": "May 10, 2025"
     }
 ]
