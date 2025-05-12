@@ -18,6 +18,8 @@ import phpSVG from '../assets/php.svg';
 import viteSVG from '../assets/vite.svg';
 import downSVG from '../assets/down2.svg';
 import upSVG from '../assets/up.svg'
+import expressSVG from '../assets/express.webp'
+import nodeSVG from '../assets/nodeSVG.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -45,6 +47,8 @@ function StudyCards() {
         git: gitSVG,
         php: phpSVG,
         vite: viteSVG,
+        node: nodeSVG,
+        express: expressSVG,
     };
 
     // Determine the data to display (first 10 or all)
