@@ -509,6 +509,70 @@ main{
   }
 }
 
+#analytics {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: rgb(51, 51, 51);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+}
+
+#analytics h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.analytics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.stat {
+  flex: 1 1 30%;
+  background-color: rgb(31, 31, 31);
+  border: 1px solid rgb(86, 86, 86);
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stat ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stat ul li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+.chart {
+  margin: 20px 0;
+}
+
+.chart h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
 @keyframes fade-up {
   0%{
     opacity: 0;

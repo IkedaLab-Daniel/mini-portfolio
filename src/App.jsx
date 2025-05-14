@@ -1,7 +1,9 @@
 import About from './components/About'
 import StudyCards from './components/StudyCards'
 import Faqs from './components/Faqs'
+import Analytics from './components/Analytics'
 import './index.css'
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       
       <About />
       <StudyCards />
+      {/* <Analytics /> */}
     </main>
   )
 }
