@@ -20,6 +20,7 @@ import downSVG from '../assets/down2.svg';
 import upSVG from '../assets/up.svg'
 import expressSVG from '../assets/express.webp'
 import nodeSVG from '../assets/nodeSVG.svg'
+import mongodbSVG from '../assets/mongodb.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -49,6 +50,7 @@ function StudyCards() {
         vite: viteSVG,
         node: nodeSVG,
         express: expressSVG,
+        mongodb: mongodbSVG,
     };
 
     // Determine the data to display (first 10 or all)
