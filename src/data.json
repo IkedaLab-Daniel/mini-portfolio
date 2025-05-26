@@ -862,5 +862,11 @@
         "timeSpent": "3:00",
         "icons": ["node", "mongodb"],
         "date": "May 24, 2025"
+    },
+    {
+        "day": 145,
+        "timeSpent": "1:45",
+        "icons": ["node", "express", "mongodb"],
+        "date": "May 24, 2025"
     }
 ]
