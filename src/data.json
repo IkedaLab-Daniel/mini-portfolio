@@ -866,43 +866,49 @@
     {
         "day": 145,
         "timeSpent": "3:00",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 25, 2025"
     },
     {
         "day": 146,
         "timeSpent": "1:45",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 26, 2025"
     },
     {
         "day": 147,
         "timeSpent": "2:00",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 27, 2025"
     },
     {
         "day": 148,
         "timeSpent": "2:00",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 28, 2025"
     },
     {
         "day": 149,
         "timeSpent": "2:00",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 29, 2025"
     },
     {
         "day": 150,
         "timeSpent": "1:35",
-        "icons": ["node", "express", "mongodb"],
+        "icons": ["node", "express", "mongodb", "git"],
         "date": "May 30, 2025"
     },
     {
         "day": 151,
         "timeSpent": "2:00",
-        "icons": ["react", "node", "express", "mongodb"],
+        "icons": ["react", "node", "express", "mongodb", "git"],
         "date": "May 31, 2025"
+    },
+    {
+        "day": 152,
+        "timeSpent": "2:00",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 1, 2025"
     }
 ]
