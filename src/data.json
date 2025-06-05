@@ -913,8 +913,20 @@
     },
     {
         "day": 153,
-        "timeSpent": "237",
+        "timeSpent": "2:37",
         "icons": ["react", "node", "express", "mongodb", "git"],
         "date": "June 2, 2025"
+    },
+    {
+        "day": 154,
+        "timeSpent": "1:40",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 3, 2025"
+    },
+    {
+        "day": 155,
+        "timeSpent": "2:00",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 4, 2025"
     }
 ]
