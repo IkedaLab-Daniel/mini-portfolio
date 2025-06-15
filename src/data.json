@@ -952,5 +952,47 @@
         "timeSpent": "2:00",
         "icons": ["react", "node", "express", "mongodb", "git"],
         "date": "June 8, 2025"
+    },
+    {
+        "day": 160,
+        "timeSpent": "1:30",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 9, 2025"
+    }, 
+    {
+        "day": 161,
+        "timeSpent": "1:50",
+        "icons": ["html", "css3", "js", "php", "mysql", "git", "figma"],
+        "date": "June 10, 2025"
+    },
+    {
+        "day": 162,
+        "timeSpent": "2:30",
+        "icons": ["html", "css3", "js", "php", "mysql", "git", "figma"],
+        "date": "June 11, 2025"
+    }, 
+    {
+        "day": 163,
+        "timeSpent": "1:30",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 12, 2025"
+    }, 
+    {
+        "day": 164,
+        "timeSpent": "2:00",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 13, 2025"
+    }, 
+    {
+        "day": 165,
+        "timeSpent": "2:00",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 14, 2025"
+    }, 
+    {
+        "day": 166,
+        "timeSpent": "1:51",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 15, 2025"
     }
 ]

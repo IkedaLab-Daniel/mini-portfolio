@@ -24,7 +24,7 @@ import mongodbSVG from '../assets/mongodb.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
-    const [showAll, setShowAll] = useState(false); // State to control whether all cards are shown
+    const [showAll, setShowAll] = useState(false);
 
     const handleToggleStudyCard = (styling) => {
         if (styling === 'card') {
