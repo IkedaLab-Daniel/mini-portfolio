@@ -994,5 +994,29 @@
         "timeSpent": "1:51",
         "icons": ["react", "node", "express", "mongodb", "git"],
         "date": "June 15, 2025"
+    },
+    {
+        "day": 167,
+        "timeSpent": "2:10",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 16, 2025"
+    },
+    {
+        "day": 168,
+        "timeSpent": "2:10",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 17, 2025"
+    },
+    {
+        "day": 169,
+        "timeSpent": "1:20",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 18, 2025"
+    },
+    {
+        "day": 170,
+        "timeSpent": "2:00",
+        "icons": ["react", "node", "express", "mongodb", "git"],
+        "date": "June 19, 2025"
     }
 ]
