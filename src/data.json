@@ -1126,5 +1126,17 @@
         "timeSpent": "5:09",
         "icons": ["react", "css3", "figma"],
         "date": "July 7, 2025"
+    },
+    {
+        "day": 189,
+        "timeSpent": "6:47",
+        "icons": ["react", "css3", "figma"],
+        "date": "July 8, 2025"
+    },
+    {
+        "day": 190,
+        "timeSpent": "2:30",
+        "icons": ["react", "css3", "figma"],
+        "date": "July 9, 2025"
     }
 ]
