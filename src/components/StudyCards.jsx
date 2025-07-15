@@ -24,6 +24,7 @@ import mongodbSVG from '../assets/mongodb.svg'
 import githubSVG from '../assets/github.svg'
 import reduxSVG from '../assets/redux.svg'
 import dockerSVG from '../assets/docker.png'
+import flaskSVG from '../assets/flask-light.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -56,7 +57,8 @@ function StudyCards() {
         mongodb: mongodbSVG,
         github: githubSVG,
         redux: reduxSVG,
-        docker: dockerSVG
+        docker: dockerSVG,
+        flask: flaskSVG
     };
 
     // Determine the data to display (first 10 or all)
