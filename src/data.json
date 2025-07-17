@@ -1106,19 +1106,19 @@
     {
         "day": 185,
         "timeSpent": "6:01",
-        "icons": ["redux", "react", "css", "figma"],
+        "icons": ["redux", "react", "css3", "figma"],
         "date": "July 4, 2025"
     },
     {
         "day": 186,
         "timeSpent": "3:36",
-        "icons": ["react", "css", "figma"],
+        "icons": ["react", "css3", "figma"],
         "date": "July 5, 2025"
     },
     {
         "day": 187,
         "timeSpent": "5:01",
-        "icons": ["react", "css", "figma"],
+        "icons": ["react", "css3", "figma"],
         "date": "July 6, 2025"
     }
 ]
