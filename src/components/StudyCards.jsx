@@ -27,6 +27,8 @@ import dockerSVG from '../assets/docker.png'
 import flaskSVG from '../assets/flask-light.svg'
 import postgresqlSVG from '../assets/postgresql.svg'
 import bootstrapSVG from '../assets/bootstrap.svg'
+import kubernetesSVG from '../assets/kubernetes.svg'
+
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
     const [showAll, setShowAll] = useState(false);
@@ -61,7 +63,8 @@ function StudyCards() {
         docker: dockerSVG,
         flask: flaskSVG,
         postgresql: postgresqlSVG,
-        bootstrap: bootstrapSVG
+        bootstrap: bootstrapSVG,
+        kubernetes: kubernetesSVG
     };
 
     // Determine the data to display (first 10 or all)
