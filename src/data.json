@@ -1244,7 +1244,13 @@
     {
         "day": 208,
         "timeSpent": "5:00",
-        "icons": ["django", "bootstrap"],
+        "icons": ["django", "html","bootstrap"],
         "date": "July 27, 2025"
+    },
+    {
+        "day": 209,
+        "timeSpent": "8:43",
+        "icons": ["react", "bootstrap"],
+        "date": "July 28, 2025"
     }
 ]
