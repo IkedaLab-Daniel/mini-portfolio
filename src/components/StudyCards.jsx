@@ -28,6 +28,7 @@ import flaskSVG from '../assets/flask-light.svg'
 import postgresqlSVG from '../assets/postgresql.svg'
 import bootstrapSVG from '../assets/bootstrap.svg'
 import kubernetesSVG from '../assets/kubernetes.svg'
+import aiSVG from '../assets/ai.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -64,7 +65,8 @@ function StudyCards() {
         flask: flaskSVG,
         postgresql: postgresqlSVG,
         bootstrap: bootstrapSVG,
-        kubernetes: kubernetesSVG
+        kubernetes: kubernetesSVG,
+        ai: aiSVG
     };
 
     // Determine the data to display (first 10 or all)
