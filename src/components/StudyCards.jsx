@@ -30,6 +30,7 @@ import bootstrapSVG from '../assets/bootstrap.svg'
 import kubernetesSVG from '../assets/kubernetes.svg'
 import aiSVG from '../assets/ai.svg'
 import terminalSVG from '../assets/terminal.svg'
+import securitySVG from '../assets/security.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -68,7 +69,8 @@ function StudyCards() {
         bootstrap: bootstrapSVG,
         kubernetes: kubernetesSVG,
         ai: aiSVG,
-        terminal: terminalSVG
+        terminal: terminalSVG,
+        security: securitySVG
     };
 
     // Determine the data to display (first 10 or all)
