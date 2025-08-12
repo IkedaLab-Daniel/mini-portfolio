@@ -31,6 +31,7 @@ import kubernetesSVG from '../assets/kubernetes.svg'
 import aiSVG from '../assets/ai.svg'
 import terminalSVG from '../assets/terminal.svg'
 import securitySVG from '../assets/security.svg'
+import laravelSVG from '../assets/laravel.svg'
 
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
@@ -70,7 +71,8 @@ function StudyCards() {
         kubernetes: kubernetesSVG,
         ai: aiSVG,
         terminal: terminalSVG,
-        security: securitySVG
+        security: securitySVG,
+        laravel: laravelSVG
     };
 
     // Determine the data to display (first 10 or all)
