@@ -32,7 +32,7 @@ import aiSVG from '../assets/ai.svg'
 import terminalSVG from '../assets/terminal.svg'
 import securitySVG from '../assets/security.svg'
 import laravelSVG from '../assets/laravel.svg'
-
+import tailwindSVG from '../assets/tailwind.svg'
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
     const [showAll, setShowAll] = useState(false);
@@ -72,7 +72,8 @@ function StudyCards() {
         ai: aiSVG,
         terminal: terminalSVG,
         security: securitySVG,
-        laravel: laravelSVG
+        laravel: laravelSVG,
+        tailwind: tailwindSVG
     };
 
     // Determine the data to display (first 10 or all)
