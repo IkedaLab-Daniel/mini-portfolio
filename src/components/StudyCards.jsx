@@ -35,7 +35,7 @@ import laravelSVG from '../assets/laravel.svg'
 import tailwindSVG from '../assets/tailwind.svg'
 import cloudSVG from '../assets/cloud.svg'
 import prismaSVG from '../assets/prisma.svg'
-
+import typescriptSVG from '../assets/typescript.svg'
 function StudyCards() {
     const [toggleStudyCard, setToggleStudyCard] = useState(true);
     const [showAll, setShowAll] = useState(false);
@@ -78,7 +78,8 @@ function StudyCards() {
         laravel: laravelSVG,
         tailwind: tailwindSVG,
         cloud: cloudSVG,
-        prisma: prismaSVG
+        prisma: prismaSVG,
+        typescript: typescriptSVG
     };
 
     // Determine the data to display (first 10 or all)
